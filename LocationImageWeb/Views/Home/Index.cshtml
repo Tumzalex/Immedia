@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<string>
+
+<div class="text-center">
+    <h1 class="display-4">Locations</h1>
+
+    @foreach (var location in Model)
+    {
+        <h4><a asp-controller="Home" asp-action="GetLocationImages" asp-route-location="@location"> @location</a></h4>
+    }
+
+</div>

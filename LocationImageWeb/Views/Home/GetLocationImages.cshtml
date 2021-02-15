@@ -1,0 +1,12 @@
+﻿
+
+@model LocationImagesViewModel
+
+    
+<h1>@Model.LocationName</h1>
+
+@foreach (var link in Model.ImageLinks)
+{
+    <img src="@link" width="150" height="70"/>
+}
+

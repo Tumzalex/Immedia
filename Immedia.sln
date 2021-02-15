@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB6338BC-830D-41B1-AE00-97B1764546CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationImageApi", "LocationImageApi\LocationImageApi.csproj", "{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationImageWeb", "LocationImageWeb\LocationImageWeb.csproj", "{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DDFEC0F-3BBE-4B2F-A6D4-DF0FF1082FCD} = {EB6338BC-830D-41B1-AE00-97B1764546CC}
+		{EABBEDE7-C1FE-486E-9CDE-47FACA9B912D} = {EB6338BC-830D-41B1-AE00-97B1764546CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4C53887-2837-4AF1-A3CB-C20AEE4E049D}
+	EndGlobalSection
+EndGlobal
